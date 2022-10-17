@@ -14,6 +14,7 @@
 		BE1A100828FDE7330009C499 /* Git_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A100728FDE7330009C499 /* Git_ProjectTests.swift */; };
 		BE1A101228FDE7330009C499 /* Git_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A101128FDE7330009C499 /* Git_ProjectUITests.swift */; };
 		BE1A101428FDE7330009C499 /* Git_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A101328FDE7330009C499 /* Git_ProjectUITestsLaunchTests.swift */; };
+		BE1A102328FDEAF30009C499 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A102228FDEAF30009C499 /* ModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BE1A100D28FDE7330009C499 /* Git ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1A101128FDE7330009C499 /* Git_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_ProjectUITests.swift; sourceTree = "<group>"; };
 		BE1A101328FDE7330009C499 /* Git_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE1A102228FDEAF30009C499 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BE1A0FF628FDE7300009C499 /* Git_ProjectApp.swift */,
 				BE1A0FF828FDE7300009C499 /* ContentView.swift */,
+				BE1A102228FDEAF30009C499 /* ModelView.swift */,
 				BE1A0FFA28FDE7330009C499 /* Assets.xcassets */,
 				BE1A0FFC28FDE7330009C499 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1A102328FDEAF30009C499 /* ModelView.swift in Sources */,
 				BE1A0FF928FDE7300009C499 /* ContentView.swift in Sources */,
 				BE1A0FF728FDE7300009C499 /* Git_ProjectApp.swift in Sources */,
 			);
